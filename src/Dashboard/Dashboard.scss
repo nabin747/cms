@@ -1,0 +1,103 @@
+.dashboard-left{
+    background-color: #003566;
+    width: 15vw;
+    height: 100vh;
+ 
+}
+.dashleft-cards{
+    
+   
+    height: 34px;
+}
+
+.dashboard-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.dashboard-left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px;
+    color:#969696;
+}
+.dashleft{
+    display: flex;
+    
+  
+}
+.dashboard-right{
+    width:77vw
+}
+
+.navlinks{
+    display:flex;
+    padding: 10px 16px;
+}
+.navlink,.text{
+    padding-left: 14px;
+}
+
+
+.dashright-cards{
+    display: flex;
+    gap:6px;
+  
+}
+.dashright-card{
+   width:200px;
+   height: 71px;
+   border-radius:5px;
+   background-color: #001D3D;
+   color: white;
+   font-size: 16px;
+   margin: 0 15px;
+   flex-wrap: wrap;
+   
+
+}
+.icon{
+    font-size: 30px
+     
+   }
+.dashright{
+    display: flex;
+    
+}
+.logo,.logos{
+    display: flex;
+  
+    padding: 10px 16px;
+    align-items: center;
+
+   
+   
+}
+.logo{
+    color: white;
+    height: 47px;
+}
+
+.navlinks{
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.selection{
+ border: none;
+ outline: none;
+}
+.settings{
+   display: flex;
+    padding: 18rem 0rem 0rem 0rem;
+   
+}
+.setting-text{
+    display: flex;
+    align-items: center;
+    gap:9px;
+    border-top: 1px solid rgba(179, 179, 179, 0.5);
+    margin: 1rem;
+    padding:20px 0px;
+  
+}
